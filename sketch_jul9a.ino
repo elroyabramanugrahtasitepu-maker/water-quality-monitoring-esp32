@@ -11,11 +11,11 @@
 #define SCREEN_HEIGHT 64
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
-const char* ssid = "ESP_TEST";
-const char* password = "enakbangetcok";
+const char* ssid = "";
+const char* password = "";
 
 // Ganti dengan IP laptop yang menjalankan XAMPP
-const char* server = "10.28.34.44";
+const char* server = "";
 
 #define TDS_PIN A0
 #define ONE_WIRE_BUS D4
